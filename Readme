@@ -1,0 +1,31 @@
+# Prueba Técnica: Sistema de Gestión de Clientes
+
+## Descripción
+Este es un proyecto de prueba técnica para la gestión de clientes utilizando tecnologías como .NET 6, Angular 13+, y NGRX. El sistema permite realizar operaciones CRUD (Crear, Leer, Actualizar, Eliminar) sobre la información de los clientes.
+
+## Requisitos
+
+### Backend (API)
+- **.NET 6** o superior
+- **Entity Framework Core** con soporte para **MySQL**
+- **JWT Authentication** para la autenticación de usuarios
+- **API Versioning** para manejar múltiples versiones de la API
+- **AutoMapper** para la conversión de objetos entre entidades y modelos
+
+### Frontend (Angular)
+- **Angular 19+**
+- **NGRX** para la gestión del estado global
+- **Bootstrap** para el diseño responsivo
+- **Angular CLI**
+
+### Otros
+- **MySQL** como base de datos para almacenar la información de los clientes
+- **Swagger** para la documentación de la API
+- **Git** para el control de versiones
+
+## Instalación
+
+### Backend
+1. Clona el repositorio:
+   ```bash
+   git clone <url_del_repositorio>
